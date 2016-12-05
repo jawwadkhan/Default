@@ -1,0 +1,48 @@
+@import "global"
+@import url(../sizes/mobil.min.css) screen and (max-device-width: 750px), screen and (min-device-width: 1025px) and (max-width: 600px)
+@import url(../sizes/tablet.min.css) screen and (min-device-width: 751px) and (max-device-width: 1024px)
+@import url(../sizes/desktop.min.css) screen and (min-device-width: 1025px) and (min-width: 601px)
+
+
+
+
+
+//Media-TEST
+#screentest
+  position: fixed
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  z-index: 99
+
+  .screenfeedback
+    width: auto
+    height: 50px
+    color: #fff
+
+  .mobil, .mobils
+    background-color: green
+
+  .tablet, .tablets
+    background-color: orange
+    color: #000
+
+  .desktop, .desktoph
+    background-color: blue
+
+
+
+
+
+//CSS rules
+.hidden
+  +hidden
+
+
+
+
+//Stylesheet
+body
+  margin: 0
+  padding: 0

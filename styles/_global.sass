@@ -1,0 +1,23 @@
+//Mixin rules
+=prefix($property, $value)
+  #{$property}: $value
+  -webkit-#{$property}: $value
+  -moz-#{$property}: $value
+  -ms-#{$property}: $value
+  -o-#{$property}: $value
+  //rewrite the prefix so that you can also have values with prefixes if necessary
+=flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+=flex-row
+  display: flex
+  flex-direction: column
+  align-items: center
+=hidden
+  display: none
+  visibility: hidden
+  height: 0
+  width: 0
+  margin: 0
+  padding: 0

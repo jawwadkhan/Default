@@ -1,0 +1,27 @@
+@import "sizes"
+
+
+//hiddens
+.tablet, .tablets, .tabletg, .desktop, .desktoph, .desktopg
+  +hidden
+
+
+
+//ALL
++short
+
+
+
+//Portrait
+@media only screen and (orientation: portrait)
+  .mobils
+    +hidden
+
+  +portrait
+
+//Landscape
+@media only screen and (orientation: landscape)
+  .mobil
+    +hidden
+
+  +landscape
