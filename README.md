@@ -13,7 +13,7 @@ Default lightweight kit for starting projects
   -Charset UTF-8
   -Author
   -etc
--Mixiin for default links
+-Mixin for default links
   -default.min.css
   -Jquery.min.js
   -main.js
